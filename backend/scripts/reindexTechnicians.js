@@ -6,7 +6,7 @@ async function run() {
   try {
     // ✅ WAIT for DB connection
     await mongoose.connect(
-      "mongodb+srv://chgayatridevi27:Gayatri@cluster0.3fbbxj0.mongodb.net/remote-repair?retryWrites=true&w=majority",
+     YOUR MONGODB URL,
       {
         serverSelectionTimeoutMS: 5000, // fail fast
       }
