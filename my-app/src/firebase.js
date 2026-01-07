@@ -7,7 +7,7 @@ import { getMessaging } from "firebase/messaging";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC6J2Xu4nONRWHkxC_mLriQXrfernKwnYg",
+  apiKey: "YOUR KEY",
   authDomain: "remote-repair-be03c.firebaseapp.com",
   projectId: "remote-repair-be03c",
   storageBucket: "remote-repair-be03c.firebasestorage.app",
@@ -19,3 +19,4 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const messaging = getMessaging(app);
+
